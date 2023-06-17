@@ -1,7 +1,4 @@
-
 #list are ordered, changeable,contains same and different datatypes ,allow duplicate values.
-
-
 list=["A","B","C","D"]
 print(list)
 

@@ -1,20 +1,16 @@
-#len function
-
 a='Hello World'
-print(len(a))
+print(len(a))   #len function
+
 #string methods
 """a.upper()
    a.lower()
    a.find("H")  it will tell that which index the H occur
    a.replace("H","G")
    a.title()
-   Hello in a
-   
-
-
 """
 print(type(a))
 print(a.count('l'))
+
 #Ascii value
 
 print(ord('D'))

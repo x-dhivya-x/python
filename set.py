@@ -21,8 +21,8 @@ s2.update(s3)
 print(s1)
 print(s2)
 
-x={"hari","mohana","dhivya","jagatheesh"}
-w={"amsaveni","guna","keerthi","jese","gayathri"}
+x={"noodles","friedrice","naan","grillchicken"}
+w={"rice","gravy","dosa"}
 
 # If the item to remove does not exist, remove() will raise an error.
 #If the item to remove does not exist, discard() will NOT raise an error.
@@ -30,7 +30,7 @@ w={"amsaveni","guna","keerthi","jese","gayathri"}
 #The return value of the pop() method is the removed item.
 
 
-x.remove("dhivya")
+x.remove("naan")
 print(x)
 y=x.pop()
 print(y)
