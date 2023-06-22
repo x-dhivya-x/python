@@ -5,7 +5,4 @@ matrix=[
 
 ]
 print(matrix)
-
 print(matrix[0][2])
-
-
