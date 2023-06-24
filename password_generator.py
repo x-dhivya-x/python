@@ -11,13 +11,13 @@ n_character=int(input("How many characters you want in the password: "))
 n_symbol=int(input("How many symbols you want in the password: "))
 n_number=int(input("How many numbers you want in the password: "))
 password_list=[]
-for i in range(n_character):
+for _ in range(n_character): #Changed 
 	char=random.choice(characters)
 	password_list.append(char)
-for j in range(n_symbol):
+for _ in range(n_symbol):
 	sym=random.choice(symbols)
 	password_list.append(sym)
-for k in range(n_number):
+for _ in range(n_number):
 	num=random.choice(numbers)
 	password_list.append(num)
 #print(password_list)
